@@ -1,0 +1,24 @@
+.question-item {
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  background-color: #f9f9f9;
+}
+
+.scale {
+  margin-top: 10px;
+  display: flex;
+  gap: 10px;
+}
+
+.scale label {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 14px;
+}
+
+.scale input[type="radio"] {
+  margin-bottom: 5px;
+}
