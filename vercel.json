@@ -1,3 +1,5 @@
-git add vercel.json
-git commit -m "Add vercel.json for vercel routing"
-git push origin main
+{
+  "rewrites": [
+    { "source": "/", "destination": "/index.html" }
+  ]
+}
